@@ -1,5 +1,5 @@
 FROM rust:bookworm
 
 RUN rustup target add wasm32-unknown-unknown
-RUN cargo  install dioxus-cli --version 0.4.1
+RUN cargo  install dioxus-cli --version 0.4.3
 

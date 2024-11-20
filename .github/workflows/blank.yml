@@ -41,3 +41,4 @@ jobs:
           tags: |
              ${{ secrets.DOCKERHUB_USERNAME }}/dioxus:latest
              ${{ secrets.DOCKERHUB_USERNAME }}/dioxus:${{github.ref_name}}
+             ${{ secrets.DOCKERHUB_USERNAME }}/dioxus:0.5.7
